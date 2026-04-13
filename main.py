@@ -29,7 +29,7 @@ def find_non_surjective_element(mapping: dict, target: set):
 def my_floor(x: float) -> int:
     """Return floor(x) without using math.floor."""
     # === TODO ===
-    if x>=0:
+    if x >= 0:
         return int(x)
     elif x == int(x):
         return x
@@ -41,9 +41,9 @@ def my_floor(x: float) -> int:
 def my_ceil(x: float) -> int:
     """Return ceil(x) without using math.ceil."""
     # === TODO ===
-    if x>=0:
+    if x >= 0:
         return int(x) + 1
-    elif x = int(x):
+    elif x == int(x):
         return x
     else:
         return int(x)
