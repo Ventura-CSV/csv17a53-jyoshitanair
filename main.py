@@ -31,6 +31,8 @@ def my_floor(x: float) -> int:
     # === TODO ===
     if x>=0:
         return int(x)
+    elif x = int(x):
+        return x
     else:
         return int(x) - 1
     # === END TODO ===
@@ -41,6 +43,8 @@ def my_ceil(x: float) -> int:
     # === TODO ===
     if x>=0:
         return int(x) + 1
+    elif x = int(x):
+        return x
     else:
         return int(x)
     # === END TODO ===
